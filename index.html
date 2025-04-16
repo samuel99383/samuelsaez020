@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Sáez Martínez - Portfolio</title>
+  <style>
+    /* Estilos modernos para el portfolio */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f7f7f7, #e2e2e2);
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    /* Estilo para la foto de perfil */
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #fff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .section-title {
+      font-size: 2em;
+      border-bottom: 3px solid #333;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    /* Experiencia y Educación */
+    .card {
+      background: #fff;
+      border-left: 4px solid #333;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    .card span {
+      display: block;
+      font-size: 0.9em;
+      color: #777;
+      margin-bottom: 10px;
+    }
+    /* Habilidades en formato grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .skill {
+      background: #fff;
+      padding: 15px;
+      text-align: center;
+      border: 2px solid #333;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .contact-info p {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+    }
+    @media (max-width: 768px) {
+      nav a {
+        margin: 0 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <header>
+    <h1>Samuel Sáez Martínez</h1>
+    <p>Automatización y Robótica Industrial</p>
+  </header>
+  
+  <nav>
+    <a href="#about">Sobre Mí</a>
+    <a href="#experience">Experiencia</a>
+    <a href="#education">Educación</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+  
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Sobre Mí</h2>
+      <p>
+        Profesional comprometido y en constante aprendizaje con experiencia práctica en sectores mecánico y avícola. 
+        He trabajado como mecánico de bicis en Bike Converters (marzo 2024 – junio 2024) y en el área de desempeño avícola 
+        en Los Huevos de Guillem (julio 2024 – septiembre 2024). 
+        Me formé en el ámbito natural y de tiempo libre con un grado medio en Técnico en Guía en el Medio Natural y de Tiempo Libre (TEGU) 
+        en IES Conselleria (2023 – 2024) y actualmente curso un grado superior en Automatización y Robótica Industrial en IES Oleana.
+      </p>
+    </div>
+  </section>
+  
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experiencia Laboral</h2>
+      <div class="card">
+        <h3>Bike Converters</h3>
+        <span>Mecánico de Bicis | marzo 2024 – junio 2024</span>
+        <p>Mantenimiento y reparación de bicicletas, asegurando un servicio de alta calidad.</p>
+      </div>
+      <div class="card">
+        <h3>Los Huevos de Guillem</h3>
+        <span>Desempeño Avícola | julio 2024 – septiembre 2024</span>
+        <p>Participación en el manejo y optimización de procesos en el área avícola.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Educación</h2>
+      <div class="card">
+        <h3>IES Conselleria</h3>
+        <span>Grado Medio en Técnico en Guía en el Medio Natural y de Tiempo Libre (TEGU) | 2023 – 2024</span>
+      </div>
+      <div class="card">
+        <h3>IES Oleana</h3>
+        <span>Grado Superior en Automatización y Robótica Industrial | Actualidad</span>
+      </div>
+    </div>
+  </section>
+  
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="skills-grid">
+        <div class="skill">Mantenimiento y reparación de bicicletas</div>
+        <div class="skill">Atención y servicio al cliente</div>
+        <div class="skill">Conocimientos en desempeño avícola</div>
+        <div class="skill">Organización de actividades en entornos naturales</div>
+        <div class="skill">Fundamentos de automatización y robótica industrial</div>
+        <div class="skill">Resolución de problemas técnicos</div>
+        <div class="skill">Trabajo en equipo y adaptabilidad</div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <div class="container contact-info">
+      <h2 class="section-title">Contacto</h2>
+      <p>Email: <a href="mailto:samuelsaez020@gmail.com">samuelsaez020@gmail.com</a></p>
+      <p>Teléfono: <a href="tel:+34684136557">+34 684136557</a></p>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Samuel Sáez Martínez. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<style>
+    /* Estilos modernos para el portfolio */
+    
+    /* Estilo general del cuerpo */
+    body {
+      margin: 0; /* Elimina el margen predeterminado del navegador */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente principal */
+      background: linear-gradient(135deg, #f7f7f7, #e2e2e2); /* Fondo con degradado diagonal */
+      color: #333; /* Color del texto en gris oscuro */
+    }
+
+    /* Encabezado principal */
+    header {
+      background: #333; /* Fondo negro */
+      color: #fff; /* Texto blanco */
+      padding: 40px 20px; /* Espaciado interno */
+      text-align: center; /* Centra el contenido horizontalmente */
+    }
+
+    /* Estilo para la foto de perfil */
+    .profile-pic {
+      width: 150px; /* Ancho de la imagen */
+      height: 150px; /* Altura de la imagen */
+      border-radius: 50%; /* Hace la imagen circular */
+      object-fit: cover; /* Ajusta la imagen al contenedor sin deformarla */
+      margin-bottom: 20px; /* Espaciado inferior */
+      border: 3px solid #fff; /* Borde blanco */
+    }
+
+    /* Título principal del encabezado */
+    header h1 {
+      margin: 0; /* Elimina el margen predeterminado */
+      font-size: 3em; /* Tamaño grande del texto */
+    }
+
+    /* Subtítulo del encabezado */
+    header p {
+      margin-top: 10px; /* Espaciado superior */
+      font-size: 1.2em; /* Tamaño del texto ligeramente mayor */
+    }
+
+    /* Barra de navegación */
+    nav {
+      background: #444; /* Fondo gris oscuro */
+      padding: 10px; /* Espaciado interno */
+      text-align: center; /* Centra los enlaces */
+    }
+
+    /* Estilo de los enlaces de navegación */
+    nav a {
+      color: #fff; /* Texto blanco */
+      text-decoration: none; /* Elimina el subrayado */
+      margin: 0 15px; /* Espaciado horizontal entre enlaces */
+      font-size: 1em; /* Tamaño estándar del texto */
+    }
+
+    /* Efecto hover en los enlaces */
+    nav a:hover {
+      text-decoration: underline; /* Subraya el enlace al pasar el cursor */
+    }
+
+    /* Secciones generales */
+    section {
+      padding: 40px 20px; /* Espaciado interno */
+    }
+
+    /* Contenedor principal */
+    .container {
+      max-width: 1100px; /* Ancho máximo del contenedor */
+      margin: 0 auto; /* Centra el contenedor horizontalmente */
+    }
+
+    /* Títulos de las secciones */
+    .section-title {
+      font-size: 2em; /* Tamaño grande del texto */
+      border-bottom: 3px solid #333; /* Línea inferior en gris oscuro */
+      display: inline-block; /* Ajusta el borde al texto */
+      margin-bottom: 20px; /* Espaciado inferior */
+    }
+
+    /* Tarjetas de experiencia y educación */
+    .card {
+      background: #fff; /* Fondo blanco */
+      border-left: 4px solid #333; /* Borde izquierdo en gris oscuro */
+      padding: 20px; /* Espaciado interno */
+      margin-bottom: 20px; /* Espaciado inferior */
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* Sombra ligera */
+    }
+
+    /* Títulos de las tarjetas */
+    .card h3 {
+      margin: 0; /* Elimina el margen predeterminado */
+      font-size: 1.5em; /* Tamaño mediano del texto */
+    }
+
+    /* Subtítulos de las tarjetas */
+    .card span {
+      display: block; /* Ocupa toda la línea */
+      font-size: 0.9em; /* Tamaño pequeño del texto */
+      color: #777; /* Texto en gris claro */
+      margin-bottom: 10px; /* Espaciado inferior */
+    }
+
+    /* Habilidades en formato grid */
+    .skills-grid {
+      display: grid; /* Activa el diseño en cuadrícula */
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas ajustables con ancho mínimo */
+      gap: 20px; /* Espaciado entre elementos */
+    }
+
+    /* Estilo de cada habilidad */
+    .skill {
+      background: #fff; /* Fondo blanco */
+      padding: 15px; /* Espaciado interno */
+      text-align: center; /* Centra el texto */
+      border: 2px solid #333; /* Borde gris oscuro */
+      border-radius: 5px; /* Bordes redondeados */
+      font-weight: bold; /* Texto en negrita */
+    }
+
+    /* Información de contacto */
+    .contact-info p {
+      font-size: 1.1em; /* Tamaño del texto ligeramente mayor */
+      margin: 10px 0; /* Espaciado vertical */
+    }
+
+    /* Pie de página */
+    footer {
+      text-align: center; /* Centra el texto */
+      padding: 20px; /* Espaciado interno */
+      background: #333; /* Fondo negro */
+      color: #fff; /* Texto blanco */
+    }
+
+    /* Estilos responsivos para pantallas pequeñas */
+    @media (max-width: 768px) {
+      nav a {
+        margin: 0 8px; /* Reduce el espaciado entre enlaces */
+      }
+    }
+</style>
